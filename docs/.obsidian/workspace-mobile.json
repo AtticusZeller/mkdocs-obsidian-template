@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "a1bb6e011d072feb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f47dfbc55a977e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac6489836e53e3c3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9744b9df98dc1197",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7a2e9c95af36d817",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1cd334f57033d3bd",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "019f326cbc978756",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "de00cd250232c2c9",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          }
+        }
+      },
+      {
+        "id": "548b3bce80cda638",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "ee856a7bef61f309",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0ed7ba1051fce967",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "3544ac4ca25aa637",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "181e6e65e0492bfc",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {}
+        }
+      },
+      {
+        "id": "57ac6d6cdaf2e448",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "publish:Publish changes...": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "ac6489836e53e3c3",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "docs/Daily/writing/2024-9.md",
+    "/mkdocs.yml",
+    "docs/Learning/CS/VCS/git.md",
+    "assets/Image example.png",
+    "conflict-files-obsidian-git.md",
+    "docs/Learning",
+    "docs/js/katex.js",
+    "/docs/js/katex.js",
+    "/uv.lock",
+    "/docs/Daily/writing/2024-9.md",
+    "/assets/icon/logo.svg",
+    "docs/js",
+    "/docs/js",
+    "assets/icon/logo.svg",
+    "docs/Learning/CS/Language/python/py-env/UV.md",
+    "Untitled.md",
+    "docs/Daily/Untitled.md",
+    "docs/Daily/writing",
+    "docs/Daily",
+    "docs/daily"
+  ]
+}

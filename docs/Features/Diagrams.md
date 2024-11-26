@@ -1,4 +1,4 @@
-
+# Diagrams
 
 Diagrams help to communicate complex relationships and interconnections between
 different technical components, and are a great addition to project
@@ -12,7 +12,7 @@ popular and flexible solution for drawing diagrams.
 <!-- md:version 8.2.0 -->
 
 This configuration enables native support for [Mermaid.js] diagrams. Material
-for MkDocs will automatically initialize the JavaScript runtime when a page 
+for MkDocs will automatically initialize the JavaScript runtime when a page
 includes a `mermaid` code block:
 
 ``` yaml
@@ -31,12 +31,13 @@ No further configuration is necessary. Advantages over a custom integration:
 - [x] Fonts and colors can be customized with [additional style sheets]
 - [x] Support for both, light and dark color schemes – _try it on this page!_
 
-  [^1]:
-    While all [Mermaid.js] features should work out-of-the-box, Material for
-    MkDocs will currently only adjust the fonts and colors for flowcharts,
-    sequence diagrams, class diagrams, state diagrams and entity relationship 
-    diagrams. See the section on [other diagrams] for more information why this
-    is currently not implemented for all diagrams.
+  :[^1]
+
+ While all [Mermaid.js] features should work out-of-the-box, Material for
+ MkDocs will currently only adjust the fonts and colors for flowcharts,
+ sequence diagrams, class diagrams, state diagrams and entity relationship
+ diagrams. See the section on [other diagrams] for more information why this
+ is currently not implemented for all diagrams.
 
   [instant loading]: ../setup/setting-up-navigation.md#instant-loading
   [additional style sheets]: ../customization.md#additional-css
@@ -44,7 +45,7 @@ No further configuration is necessary. Advantages over a custom integration:
 
 ## Usage
 
-### Using flowcharts
+### Using Flowcharts
 
 [Flowcharts] are diagrams that represent workflows or processes. The steps
 are rendered as nodes of various kinds and are connected by edges, describing
@@ -76,9 +77,9 @@ graph LR
 
   [Flowcharts]: https://mermaid.js.org/syntax/flowchart.html
 
-### Using sequence diagrams
+### Using Sequence Diagrams
 
-[Sequence diagrams] describe a specific scenario as sequential interactions 
+[Sequence diagrams] describe a specific scenario as sequential interactions
 between multiple objects or actors, including the messages that are exchanged
 between those actors:
 
@@ -116,7 +117,7 @@ sequenceDiagram
 
   [Sequence diagrams]: https://mermaid.js.org/syntax/sequenceDiagram.html
 
-### Using state diagrams
+### Using State Diagrams
 
 [State diagrams] are a great tool to describe the behavior of a system,
 decomposing it into a finite number of states, and transitions between those
@@ -158,7 +159,7 @@ stateDiagram-v2
 
   [State diagrams]: https://mermaid.js.org/syntax/stateDiagram.html
 
-### Using class diagrams
+### Using Class Diagrams
 
 [Class diagrams] are central to object oriented programming, describing the
 structure of a system by modelling entities as classes and relationships between
@@ -190,7 +191,7 @@ classDiagram
     +int postalCode
     +String country
     -validate()
-    +outputAsLabel()  
+    +outputAsLabel()
   }
 ```
 ````
@@ -222,7 +223,7 @@ classDiagram
     +int postalCode
     +String country
     -validate()
-    +outputAsLabel()  
+    +outputAsLabel()
   }
 ```
 
@@ -230,7 +231,7 @@ classDiagram
 
   [Class diagrams]: https://mermaid.js.org/syntax/classDiagram.html
 
-### Using entity-relationship diagrams
+### Using Entity-relationship Diagrams
 
 An [entity-relationship diagram] is composed of entity types and specifies
 relationships that exist between entities. It describes inter-related things in
@@ -266,7 +267,7 @@ erDiagram
 
   [entity-relationship diagram]: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
 
-### Other diagram types
+### Other Diagram Types
 
 Besides the diagram types listed above, [Mermaid.js] provides support for
 [pie charts], [gantt charts], [user journeys], [git graphs] and

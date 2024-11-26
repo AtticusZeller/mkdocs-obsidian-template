@@ -34,7 +34,7 @@ With this template, you get these **out-of-the-box**:
 3. **Clone** the repository you generated **into your Obsidian folder/vault.**
 4. **Move your notes** that you would like to make public to the `repo-name/docs` folder.
     - Easiest way to do this would be using drag and drop within Obsidian
-5. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/). 
+5. Commit and **push** the changes. Github actions will take care of the rest, publishing your notes using [MkDocs](https://www.mkdocs.org/), with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
 6. Go to `Settings > Pages` and select the select the **Source** as your `gh-pages` branch.
 
 ![](https://raw.githubusercontent.com/Atticuszz/mkdocs-obsidian-template/main/assets/picgo20240911105158.png)
@@ -58,15 +58,11 @@ By default, the sections and pages will follow the folder structure within `/doc
 - [kmaasrud/oboe](https://github.com/kmaasrud/oboe): tool to convert an Obsidian vault into a static directory of HTML files.
 - [Jackiexiao/foam-mkdocs-template](https://github.com/Jackiexiao/foam-mkdocs-template): template for Obsidian/Foam using mkdocs/mkdocs-material/mkdocs-roamlinks-plugin
 - [foambubble/foam-template](https://github.com/foambubble/foam-template): Foam workpace template
-- [ObsidianPublisher/obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template): Obsidian Mkdocs Publisher, a free obsidian publish alternative throught Mkdocs
+- [ObsidianPublisher/obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template): Obsidian Mkdocs Publisher, a free obsidian publish alternative through Mkdocs
 - [KosmosisDire/obsidian-webpage-export](https://github.com/KosmosisDire/obsidian-webpage-export): Webpage HTML Export lets you export single files or whole vaults as HTML websites or documents. It is similar to publish, but you get direct access to the exported HTML.
-- [Enveloppe/obsidian-enveloppe: publish your notes on a GitHub repository from Obsidian Vault](https://github.com/Enveloppe/obsidian-enveloppe)
+- [Envelope/obsidian-enveloppe: publish your notes on a GitHub repository from Obsidian Vault](https://github.com/Envelope/obsidian-enveloppe)
 
 ## Other interesting projects
 
 - [mathieudutour/gatsby-digital-garden: digital garden with Gatsby](https://github.com/mathieudutour/gatsby-digital-garden)
 - [TuanManhCao/digital-garden: Free Obisidian Publish alternative](https://github.com/TuanManhCao/digital-garden)
-
-
-
-

@@ -1,0 +1,1 @@
+{"path":"assets/Pasted_image_20240212120735.png","text":"#define CUDNN_MAJOH 8 . B baetine Sﬂgxﬂféﬁ CUDNN==89.2 ;fr_iefine CUDNN_VERSION (CUDNN_MAJOR * 1088 + CUDNN_MINOR * 10 /* cannot use constexpr here since this is a C-only file */","libVersion":"0.3.2","langs":"eng"}

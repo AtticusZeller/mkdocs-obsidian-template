@@ -1,0 +1,32 @@
+# https://pre-commit.com/
+# `pre-commit install` to set up the git hook scripts
+# `pre-commit autoupdate` to update repos
+# `pre-commit run --all-files` run hooks for all file
+exclude: (^|/)\..* # exclude hidden files or folder
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+        args: ["--unsafe"]
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=51200"]
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: detect-private-key
+      - id: destroyed-symlinks
+      - id: check-vcs-permalinks
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        files: \.(py|sh|rst|yml|yaml|md)$
+        args: [--write-changes]
+
+ci:
+  autofix_prs: true
+  autofix_commit_msg: 🎨 [pre-commit.ci] Auto format from pre-commit.com hooks
+  autoupdate_commit_msg: ⬆ [pre-commit.ci] pre-commit autoupdate
+  autoupdate_schedule: monthly
