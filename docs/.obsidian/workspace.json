@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Features/Image.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Image"
             }
           }
         ]
@@ -193,6 +193,7 @@
   },
   "active": "5e04f9d1a08afcf5",
   "lastOpenFiles": [
+    "index.md",
     "assets/Pasted image 20241126134137.png",
     "assets/Pasted image 20241126134036.png",
     "image.png",
@@ -215,7 +216,6 @@
     "Features/LaTeX Math Support.md",
     "Features/Text Formatting.md",
     "Features/Table.md",
-    "index.md",
     "Learning/Reading list.md",
     "Reference/linux/How to Monitor and Test the Health of SSD in Linux.md",
     "CS/OS/Windows/Powershell.md",
@@ -238,7 +238,6 @@
     "assets/Wallpapaer",
     "CS/Frontend/React",
     "assets/Pasted image 20240922181517.png",
-    "assets/png_flowchart.png",
     "Untitled.canvas",
     "未命名.canvas",
     "未命名 3.canvas",
