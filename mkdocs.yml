@@ -10,6 +10,9 @@ repo_url: https://github.com/atticuszeller/mkdocs-obsidian-template
 repo_name: mkdocs-obsidian-template
 edit_uri: edit/main/docs
 
+# build target dir
+docs_dir: mkdocs-obsidian-template
+# build output dir
 site_dir: site
 
 # Copyright
