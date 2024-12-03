@@ -38,7 +38,8 @@
               "title": "Changelog"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,8 +90,19 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "09dfc89c86f72419",
+            "type": "leaf",
+            "state": {
+              "type": "vertical-tabs",
+              "state": {},
+              "icon": "gallery-vertical",
+              "title": "Vertical tabs"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -207,8 +219,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "5e04f9d1a08afcf5",
+  "active": "0fa617b5d9349b5f",
   "lastOpenFiles": [
+    "Features/Image.md",
     "index.md",
     "assets/Pasted image 20241126134137.png",
     "assets/Pasted image 20241126134036.png",
@@ -228,7 +241,6 @@
     "CS/Language/C++/Data_model/unordered_map.md",
     "CS/Language/C++/Data_model/map.md",
     "Features/Icons, Emojis.md",
-    "Features/Image.md",
     "Features/LaTeX Math Support.md",
     "Features/Text Formatting.md",
     "Features/Table.md",
