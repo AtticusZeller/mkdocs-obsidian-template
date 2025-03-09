@@ -161,6 +161,7 @@ cython_debug/
 .idea/
 
 #/.obsidian/
+.trash/
 *.pyc
 .ruff_cache/
 site

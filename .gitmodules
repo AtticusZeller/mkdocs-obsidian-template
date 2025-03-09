@@ -1,0 +1,3 @@
+[submodule "mkdocs-obsidian-template/.obsidian"]
+	path = mkdocs-obsidian-template/.obsidian
+	url = git@github.com:atticuszeller/obsidian-config.git
