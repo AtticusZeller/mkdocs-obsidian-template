@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2024 Atticus.J.Zeller <zhouge1831@gmail.com>
+# Copyright (c) 2016-2024 Atticus J. Zeller <hello@atticux.me>
 
 # Project information
 site_name: obsidian mkdocs template
@@ -8,7 +8,6 @@ site_url: https://atticuszeller.github.io/mkdocs-obsidian-template
 # To display a link to the repository of your project as part of your documentation: https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/?h=edit+uri#code-actions-edit-this-page:~:text=In%20order%20to%20display%20a%20link%20to%20the%20repository%20of%20your%20project%20as%20part%20of%20your%20documentation
 repo_url: https://github.com/atticuszeller/mkdocs-obsidian-template
 repo_name: mkdocs-obsidian-template
-edit_uri: edit/main/docs
 
 # build target dir
 docs_dir: mkdocs-obsidian-template
@@ -16,7 +15,7 @@ docs_dir: mkdocs-obsidian-template
 site_dir: site
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2024 Atticus J. Zeller
+copyright: Copyright &copy; 2016 - 2025 Atticus J. Zeller
 
 # Configuration
 theme:
@@ -24,7 +23,6 @@ theme:
     features:
       # code
       - content.code.copy
-      - content.action.edit
       # footnotes
       - content.footnote.tooltips
 
@@ -35,8 +33,12 @@ theme:
       - navigation.instant.progress
       # top-level selection move to top tabs
       - navigation.tabs
+      # top-level sections are rendered as groups in the sidebar
+      - navigation.sections
       # default to be expand
       # - navigation.expand
+      # index.md of the directory is rendered as a landing page
+      - navigation.indexes
       # enable turn to before  or after  page in page button
       - navigation.footer
       # back to top
@@ -46,6 +48,9 @@ theme:
 
       # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible
       - toc.follow
+
+      # header is automatically hidden when the user scrolls past a certain threshold, leaving more space for content.
+      - header.autohide
 
       # search
       - search.suggest
@@ -87,19 +92,12 @@ plugins:
   # The git-revision-date-localized plugin adds support for adding the date of last update and creation of a document at the bottom of each page
   - git-revision-date-localized:
       enable_creation_date: true
-      type: iso_datetime
+      type: datetime #https://timvink.github.io/mkdocs-git-revision-date-localized-plugin/howto/specify-locale/
+      timezone: Asia/Shanghai
+      locale: en
+
   # adjust to obsidian path
   - obsidian-bridge
-  - pub-obsidian: # https://mkdocs-publisher.github.io/setup/installation/
-      obsidian_dir: .obsidian
-      backlinks:
-        enabled: true
-      callouts:
-        enabled: true
-        indentation: spaces
-      # links:
-      #   wikilinks_enabled: true
-      #   img_lazy: true
   # image zoom
   - glightbox
   - search
@@ -115,7 +113,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:GitHub.AJZ@pm.me
+      link: mailto:hello@atticux.me
     - icon: fontawesome/brands/github
       link: https://github.com/AtticusZeller
     - icon: fontawesome/brands/linkedin
@@ -176,6 +174,8 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Image
   - md_in_html
+  # callouts
+  - obsidian_callouts
 
 # math and mermaid
 extra_javascript:

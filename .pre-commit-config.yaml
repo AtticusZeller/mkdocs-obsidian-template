@@ -11,19 +11,19 @@ repos:
         args: ["--unsafe"]
       - id: check-json
       - id: check-added-large-files
-        args: ["--maxkb=51200"]
+        args: ["--maxkb=25600"]
       - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: detect-private-key
-      - id: destroyed-symlinks
-      - id: check-vcs-permalinks
 
   - repo: https://github.com/codespell-project/codespell
     rev: v2.4.1
     hooks:
       - id: codespell
-        files: \.(py|sh|rst|yml|yaml|md)$
-        args: [--write-changes]
+        files: \.(py|sh|rst|yml|md)$
+        args:
+        - --ignore-words-list=whet
+        - --write-changes
 
 ci:
   autofix_prs: true
